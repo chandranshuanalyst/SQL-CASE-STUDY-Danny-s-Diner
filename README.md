@@ -1,5 +1,5 @@
 # SQL-CASE-STUDY-Danny-s-Diner
-
+(SOURCE - https://8weeksqlchallenge.com/case-study-1/)
 Problem Statement
 Danny wants to use the data to answer a few simple questions about his customers, especially about their visiting patterns, how much money they’ve spent and also which menu items are their favourite. Having this deeper connection with his customers will help him deliver a better and more personalised experience for his loyal customers.
 
@@ -13,7 +13,7 @@ sales
 menu
 members
 You can inspect the entity relationship diagram and example data below.
-(SOURCE - https://8weeksqlchallenge.com/case-study-1/)
+
 
 ### Entity Relationship Diagram
 ![image](https://github.com/chandranshuanalyst/SQL-CASE-STUDY-Danny-s-Diner/assets/91171166/9661f87c-e339-4043-b497-70300d21c15a)
@@ -21,6 +21,7 @@ You can inspect the entity relationship diagram and example data below.
 Table 1: sales
 The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
 customer_id	order_date	product_id
+
 A	          2021-01-01	   1
 
 A	          2021-01-01	   2
@@ -54,6 +55,7 @@ Table 2: menu
 The menu table maps the product_id to the actual product_name and price of each menu item.
 
 product_id	product_name	price
+
 1	            sushi	       10
 
 2	            curry	       15
@@ -63,6 +65,7 @@ Table 3: members
 The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
 
 customer_id	join_date
+
 A	          2021-01-07
 
 B	          2021-01-09
@@ -87,6 +90,7 @@ The following questions are related creating basic data tables that Danny and hi
 Recreate the following table output using the available data:
 
 customer_id	order_date	product_name	price	member
+
 A	          2021-01-01	 curry	       15	    N
 
 A	          2021-01-01	 sushi	       10	    N
@@ -120,6 +124,7 @@ Rank All The Things
 Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
 
 customer_id	order_date	product_name	price	member	ranking
+
 A	          2021-01-01	  curry	        15	   N	    null
 
 A	          2021-01-01	  sushi	        10	   N	    null
