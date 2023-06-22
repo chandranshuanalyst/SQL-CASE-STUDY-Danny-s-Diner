@@ -16,7 +16,7 @@ You can inspect the entity relationship diagram and example data below.
 (SOURCE - https://8weeksqlchallenge.com/case-study-1/)
 
 ### Entity Relationship Diagram
-![image](https://github.com/chandranshuanalyst/SQL-CASE-STUDY-Danny-s-Diner/assets/91171166/509fe32e-4e12-42b8-b2a4-bd96052f268f)
+![image](https://github.com/chandranshuanalyst/SQL-CASE-STUDY-Danny-s-Diner/assets/91171166/9661f87c-e339-4043-b497-70300d21c15a)
 
 Table 1: sales
 The sales table captures all customer_id level purchases with an corresponding order_date and product_id information for when and what menu items were ordered.
