@@ -51,6 +51,7 @@ C	          2021-01-01	   3
 C	          2021-01-01	   3
 
 C	          2021-01-07	   3
+
 Table 2: menu
 The menu table maps the product_id to the actual product_name and price of each menu item.
 
@@ -61,6 +62,7 @@ product_id	product_name	price
 2	            curry	       15
 
 3	            ramen	       12
+
 Table 3: members
 The final members table captures the join_date when a customer_id joined the beta version of the Danny’s Diner loyalty program.
 
@@ -120,6 +122,7 @@ C	          2021-01-01	 ramen	       12	    N
 C	          2021-01-01	 ramen	       12	    N
 
 C	          2021-01-07	 ramen	       12	    N
+
 Rank All The Things
 Danny also requires further information about the ranking of customer products, but he purposely does not need the ranking for non-member purchases so he expects null ranking values for the records when customers are not yet part of the loyalty program.
 
